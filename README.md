@@ -1,6 +1,10 @@
 # SXNews
 模仿网易新闻做的新闻软件<br />
 图片较多但是为了清晰就采用了些大图和gif，加载耽误你时间请见谅，如果你的网速较慢请耐心等待。
+###2月29日更新
+#####说编译不能通过的看这里⬇️<br />
+1.现在已经将工程分为三个分支，old分支即之前代码的保存，master分支将会进行后续框架性的修改，lightToDown分支剔除了字体资源图等文件包体积较小用于给网速不好的人下载。 如果你网速还好建议下载master分支包含所有功能19M左右。<br />
+2.现在项目中的拖入的第三方库都改为Cocoapods支持了。包体积减小，但是拿到手后不能直接RUN需要先进行`pod install` 。如果你觉得麻烦 那就下载old分支的代码吧，下来直接能RUN。<br />
 
 ---
 ###2月4日更新
@@ -60,13 +64,13 @@ _加载gif动图可能较慢请耐心等待_<br />
 
 
 >3.主页-主页的下方加了tabbar，nav的两个按钮做了改变<br />
-![image](https://github.com/dsxNiubility/SXNews/raw/master/screenshots/011.png)<br /><br />
+<img src="https://github.com/dsxNiubility/SXNews/raw/master/screenshots/011.png" alt="Drawing" width="375px" /><br /><br />
 >4.详情页-详情页对细节的处理更加注意，如以前有人反馈的评论数不对问题已修复，并且以前会出现某条新闻点进去没评论，这个问题也找到了原因，并彻底修复。<br />
-![image](https://github.com/dsxNiubility/SXNews/raw/master/screenshots/012.png)<br /><br />
+<img src="https://github.com/dsxNiubility/SXNews/raw/master/screenshots/012.png" alt="Drawing" width="375px" /><br /><br />
 >5.图集页-图集页无大改，现在图集的评论用的还是假数据，但是后面会陆续完善<br />
-![image](https://github.com/dsxNiubility/SXNews/raw/master/screenshots/014.png)<br /><br />
+<img src="https://github.com/dsxNiubility/SXNews/raw/master/screenshots/014.png" alt="Drawing" width="375px" /><br /><br />
 >6.评论页-评论页对细节修改很多，如果以前玩过本项目的会发现现在评论页已经没有较乱得细节了都改了。<br />
-![image](https://github.com/dsxNiubility/SXNews/raw/master/screenshots/013.png)<br /><br />
+<img src="https://github.com/dsxNiubility/SXNews/raw/master/screenshots/013.png" alt="Drawing" width="375px" /><br /><br />
 
 
 
